@@ -33,7 +33,7 @@
 
     ?>
 
-<div style="text-align: center;"> <a href="/index.html"> Voltar</a> </div>
+<div style="text-align: center;"> <a href="index.html"> Voltar</a> </div>
 
 </body>
 </html>
