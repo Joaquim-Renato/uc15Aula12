@@ -19,7 +19,8 @@
                 <input type="email" name="campoEmail" placeholder="Digite seu Email" required /><br /><br />
 
                 <label>Comenta ae!</label><br />
-                <textarea name="campoComentario" required cols="30" rows="05"></textarea> <br/><br />
+                <textarea name="campoComentario" id="comentario" placeholder="até 200 caracteres" maxlength="200" required oninput="atualizarContador()" cols="30" rows="05"></textarea> <br/><br />
+                <p style="font-size: 15px;" id="contador"></p>
 
                 <input type="submit" name="Enviar">
                 <input type="reset" nome="Limpar">
