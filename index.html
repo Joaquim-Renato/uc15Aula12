@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Formulário Simplificado</title>
+    </head>
+    <body>
+        <h1 align="center">Deixe aqui seu comentario:</h1>
+
+        <form name="formComent" method="post" action="acessoBD.php">
+            <fieldset>
+                <legend>Formulário Simplificado</legend>
+
+                <label>Nome:</label><br />
+                <input type="text" name="campoNome" placeholder="Digite seu nome" required /><br /><br />
+
+                <label>E-mail:</label><br />
+                <input type="email" name="campoEmail" placeholder="Digite seu Email" required /><br /><br />
+
+                <label>Comenta ae!</label><br />
+                <textarea name="campoComentario" required cols="30" rows="05"></textarea> <br/><br />
+
+                <input type="submit" name="Enviar">
+                <input type="reset" nome="Limpar">
+            </fieldset>
+        </form>
+
+    <p align="center"><a href="index.html">Voltar</a></p>
+    </body>
+</html>
